@@ -7,6 +7,7 @@ body {
 
 header {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -17,6 +18,7 @@ h2 {
     color: #007BFF;
     border-bottom: 2px solid #007BFF;
     padding-bottom: 5px;
+    text-align: center;
 }
 
 ul {
@@ -26,6 +28,7 @@ ul {
 
 li {
     margin-bottom: 10px;
+    text-align: center;
 }
 
 a {
@@ -36,3 +39,34 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+section {
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#contact, #experience, #education, #skills, #activities, #projects, #social {
+    text-align: left;
+}
+
+#projects ul {
+    column-count: 2;
+}
+
+#projects li {
+    margin-bottom: 10px;
+}
+
+#social {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
