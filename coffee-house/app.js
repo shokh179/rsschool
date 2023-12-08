@@ -25,3 +25,5 @@ function prevSlide() {
 
 // Display the first slide on page load
 showSlide(currentSlide);
+
+console.log('1. Checking validation of pages: +16\n2. The layout matches the design: +42\n3. CSS Requirements: +10\n4.  ')
